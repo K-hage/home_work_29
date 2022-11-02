@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "home-work-29"
+version = "0.1.0"
+description = ""
+authors = ["KHAGE"]
+readme = "README.md"
+packages = [{include = "home_work_29"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.3"
+psycopg2 = "^2.9.5"
+pillow = "^9.3.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
